@@ -18,7 +18,6 @@ language: ua
 | **supabase-setup.sql** | SQL для Supabase: pgvector + таблиця + match_documents | Етап 1 чек-листа |
 | **workflow-1-ingestion.json** | n8n workflow №1: наповнення бази знань | Етап 2 (імпорт) |
 | **workflow-2-bot.json** | n8n workflow №2: сам бот (RAG) | Етап 2 (імпорт) |
-| **rag-bot-code-version.md** | те саме кодом (Python) - для тих, хто хоче зрозуміти механіку або без n8n | опційно, бонус |
 | **sample-docs/** | 5 готових HR-документів Profigent для тренування | Етап 4 (якщо нема своїх) |
 
 ---
